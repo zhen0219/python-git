@@ -1,0 +1,1 @@
+ word2vec -train /home/ML/NLP/txt/train.txt  -output /home/ML/NLP/txt/result.txt -size 100 -windows 5 -sample le-3 -negative 5 -hs 0 -cbow 0 -iter 10-10000
